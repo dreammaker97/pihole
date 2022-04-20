@@ -8,4 +8,7 @@ services:
       - "53:53/udp"
       - "67:67/udp"
       - "3000:80/tcp"
+    environment:
+      WEBPASSWORD: '1234567890'
+      ServerIP: '3.0.89.217'
     restart: unless-stopped
