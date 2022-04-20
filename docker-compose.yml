@@ -10,5 +10,5 @@ services:
       - "3000:80/tcp"
     environment:
       WEBPASSWORD: '1234567890'
-      ServerIP: '3.0.89.217'
+      #ServerIP: 'AWS ip'
     restart: unless-stopped
