@@ -10,6 +10,6 @@ services:
       - "3000:80/tcp"
     environment:
       WEBPASSWORD: '1234567890'
-      #ServerIP: 'AWS ip'
-      ServerIP: 'awsmihome2612.tk'
+      #ServerIP: 'AWS ip or domain'
+      #ServerIP: 'domain.tk'
     restart: unless-stopped
