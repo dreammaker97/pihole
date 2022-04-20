@@ -11,4 +11,5 @@ services:
     environment:
       WEBPASSWORD: '1234567890'
       #ServerIP: 'AWS ip'
+      #ServerIP: '0.0.0.0'
     restart: unless-stopped
