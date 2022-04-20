@@ -10,6 +10,6 @@ services:
       - "3000:80/tcp"
     environment:
       WEBPASSWORD: '1234567890'
-      #ServerIP: 'AWS ip or domain'
-      ServerIP: 'txmihome2612.ddns.net'
+      #ServerIP: 'ip or domain'
+      #ServerIP: 'domain.com'
     restart: unless-stopped
