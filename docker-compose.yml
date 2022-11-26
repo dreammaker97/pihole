@@ -11,5 +11,4 @@ services:
     environment:
       WEBPASSWORD: '1234567890'
       #ServerIP: 'ip or domain'
-      #ServerIP: 'txmihome2612.ddns.net'
     restart: unless-stopped
